@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game_RPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main">
+    <h1>Rock Paper Scissor</h1>
+    <div id="rbtn">
+    <input type="radio" id="option1" name="hand" value="rock" onclick="radiobtn(event)">
+    <label for="option1">Rock</label>
+    <input type="radio" id="option2" name="hand" value="Paper" onclick="radiobtn(event)">
+    <label for="option2">Paper</label>
+    <input type="radio" id="option3" name="hand" value="scissor" onclick="radiobtn(event)">
+    <label for="option3">Scissor</label>
+  </div>
+    <br><br>
+    <div id="btn">
+    <!-- <button onclick="displayshow(event)">Submit</button> -->
+    <button onclick="saaf(event)">Clear Score</button>
+    <button onclick="displayshow(event)">Submit</button>
+    <button onclick="refresh()">Restart Game</button>
+  </div>
+    <h2>Score :</h2>
+    <!-- <h2>User</h2><h2 id="usr">0</h2>
+    <h2>Computer</h2><h2 id="usr">0</h2> -->
+    <!-- <table> 
+      <tr>
+        <th id="user1"></th>
+        <th>Computer</th>
+      </tr>
+      <tr>
+        <th id="usr">0</th>
+        <th id="cpt">0</th>
+      </tr>
+    </table> -->
+    <div id="score">
+    <label for="text" id="user1">User
+      <h3 id="usr">0</h3>
+    </label>
+    <label for="text">Computer
+      <h3 id="cpt">0</h3>
+    </label>
+  </div>
+    
+    <h1 id="output"></h1>
+    <h1 id="output1"></h1>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
