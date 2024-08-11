@@ -5,7 +5,7 @@ var bot
 var u=0
 var c=0
 var count = 0
-// var user = prompt("Enter your name:")
+var user = prompt("Enter your name:")
 // if(user==""){
 //   alert("Enter your name first")
 //   // user = prompt("Enter your name")
